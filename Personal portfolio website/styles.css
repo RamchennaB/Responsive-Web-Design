@@ -1,0 +1,51 @@
+
+#navbar{
+  position:fixed;
+  top:0;
+  width:100%;
+background-color:red;
+  padding:10px;
+  margin:auto;
+}
+ul{
+  display:flex;
+  margin-left:75%;
+}
+li{
+  display:block;
+  margin-left:20px;
+}
+a{
+  color:green;
+  text-decoration:none;
+}
+h1{
+  display:flexbox;
+  align:center;
+  margin-top:30%;
+  color:white;
+  margin-left:40%;
+}
+body{
+  background-color:black;
+}
+h2{
+  color:red;
+  margin-left:40%;
+}
+img{
+  margin-top:100%;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  width:50%;
+}
+.project-tile{
+  color:white;
+  text-align:center;
+}
+@media (max-width: 600px) {
+  #header {
+    flex-direction: column;
+  }
+}
