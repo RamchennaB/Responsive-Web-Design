@@ -1,0 +1,33 @@
+body {
+            display: flex;
+            margin: 0;
+        }
+        #navbar {
+            width: 200px;
+            margin-bottom: 30px;
+            background-color: #f4f4f4;
+            padding: 10px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);   
+        }
+        .nav-link{
+            margin-bottom:50px;
+                
+            }
+        #main-doc {
+            margin-left: 220px;
+            padding: 20px;
+            flex-grow: 1;
+        }
+        .main-section {
+            margin-bottom: 20px;
+        }
+        @media (max-width: 768px) {
+            #navbar {
+                width: 100%;
+                height: auto;
+                position: static;
+            }
+            #main-doc {
+                margin-left: 0;
+            }
+        }
